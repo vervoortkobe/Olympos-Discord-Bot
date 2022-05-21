@@ -1,0 +1,83 @@
+{
+    "messages": {
+        "noPrivateMessages": "",
+        "voiceChannelNeeded": ":x: **|** ***Please connect to a voice channel!***",
+        "cannotConnect": ":x: **|** ***I couldn't connect to your current voice channel, because I don't have connect permissions!***",
+        "noArgs": ":x: **|** ***Please define which song you want me to play!***",
+        "sameVoiceChannel": ":x: **|** ***Please connect to my current voice channel!***",
+        "nothingPlaying": ":x: **|** ***I'm not playing any music currently!***",
+        "noMoreSongs": ":x: **|** ***There aren't any songs waiting in the queue currently!***",
+        "volBeetween": ":x: **|** ***The volume has to be a valid number between*** `0` ***and*** `100`***!***",
+        "validNumberPosition": ":x: **|** ***The position has to be a valid number of a song in the queue!***",
+        "couldNotBeFound": ":x: **|** ***I couldn't find that song on YouTube!***",
+        "restrictedOrNotFound": ":x: **|** ***I couldn't find that song on YouTube!***",
+        "hasBeenAdded": "***has been added to the queue!***",
+        "errorWhileParsingVideo": ":x: **|** ***An error occured while searching for the song on YouTube!***",
+        "errorWhileParsingPlaylist": ":x: **|** ***An error occured while parsing the songs on the playlist!***"
+    },
+    "embeds": {
+        "createdMusicPlayer": {
+            "title": "🎧 | Play",
+            "description": ":white_check_mark: **|** ***I connected to your current voice channel!***"
+        },
+        "nowPlaying": {
+            "title": "🎵 | Now playing",
+            "videoLink": "Video URL",
+            "channelLink": "Channel URL",
+            "remainingTime": "Time remaining:",
+            "live": "◉ LIVE"
+        },
+        "skipSong": {
+            "askedBy": "Requested by",
+            "beenSkipped": "was skipped!"
+        },
+        "volumeEmbed": {
+            "title": "🔊 | Volume",
+            "changedFrom": ":white_check_mark: **|** ***Changed from***",
+            "to": "***to***"
+        },
+        "pauseEmbed": {
+            "title": "⏸ | Pause",
+            "description": ":white_check_mark: **|** ***The song was paused!***",
+            "askedBy": "Requested by"
+        },
+        "resumeEmbed": {
+            "title": "▶ | Resume",
+            "description": "<a:yes:> **|** ***The song was resumed!***",
+            "askedBy": "Requested by"
+        },
+        "removeEmbed": {
+            "title": "🗑️ | Remove",
+            "removedBy": "Removed by",
+            "published": "Publish Date",
+            "views": "Views"
+        },
+        "errorEmbed": {
+            "title": "Error"
+        },
+        "playerDestroyedEmbed": {
+            "author": "👋 | Disconnect",
+            "description": ":white_check_mark: **|** ***I disconnected from the current voice channel!***"
+        },
+        "lyricsEmbed": {
+            "searching": "🔎 | Searching...",
+            "askedBy": "Requested by "
+        },
+        "playEmbed": {
+            "addedBy": "📥 | Added by",
+            "luckySearch": "using YouTube search",
+            "published": "Publish Date",
+            "views": "Views"
+        },
+        "queueEmbed": {
+            "queue": "queue"
+        },
+        "addEmbed": {
+            "playlist": "📋 | Playlist",
+            "hasBeenAdded": "***has been added to the queue!***"
+        }
+    },
+    "presence": {
+        "nothing": "r.help | Rex | rexbot.ga"
+    }
+}
